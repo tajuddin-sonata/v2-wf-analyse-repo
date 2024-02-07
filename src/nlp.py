@@ -3,9 +3,11 @@ from collections import defaultdict
 from spacytextblob.spacytextblob import SpacyTextBlob
 from time import time
 from itertools import groupby
-
+from spacy.tokens import Doc #################
 nlp = None
 
+# Define custom extension attributes
+Doc.set_extension('blob', default=None) ####################
 
 class Options:
     nlp_ignore = []
