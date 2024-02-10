@@ -9,16 +9,18 @@ azure-identity
 functions-framework==3.*
 flask-expects-json
 ciso8601
-# spacy>=3.0.0,<4.0.0
-spacy==3.2.6
-numpy==1.22.3
-# numpy==1.26.3
+
+# spacy==3.2.6
+# numpy==1.22.3
 # # torch==1.9.0
 
-https://download.pytorch.org/whl/cpu/torch-1.9.0%2Bcpu-cp39-cp39-linux_x86_64.whl
-### https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz#egg=en_core_web_sm
-https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.2.0/en_core_web_trf-3.2.0.tar.gz#egg=en_core_web_trf
+spacy>=3.0.0,<4.0.0
+numpy==1.26.3
 
-##https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3.tar.gz#egg=en_core_web_trf
+# https://download.pytorch.org/whl/cpu/torch-1.9.0%2Bcpu-cp39-cp39-linux_x86_64.whl
+### https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz#egg=en_core_web_sm
+# https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.2.0/en_core_web_trf-3.2.0.tar.gz#egg=en_core_web_trf
+
+https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3.tar.gz#egg=en_core_web_trf
 pyspellchecker==0.6.3
 spacytextblob==4.0.0
